@@ -31,3 +31,9 @@ people = {
 # Expected output is:
 #   Jenkins
 #   Summers
+people.each do |person, about|
+  puts about[:last_name]
+end
+
+# puts people["joe"][:last_name]
+# puts people["sue"][:last_name]
